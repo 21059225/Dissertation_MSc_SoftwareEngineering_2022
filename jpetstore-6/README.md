@@ -3,86 +3,84 @@ The 'JPetstore' in this repository is configured for generating execution traces
 
 1. Filter configuration added in  web.xml file located in jpetstore-6/src/main/webapp/WEB-INF
 
---- XML
-<filter>
-        <filter−name>sessionAndTraceRegistrationFilter</filter−name>
-        <filter−class>kieker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter</filter−class>
-        <init−param>
-                <param−name>logFilterExecution</param−name>
-                <param−value>true</param−value>
-        </init−param>
-</filter>
-<filter−mapping>
-        <filter−name>sessionAndTraceRegistrationFilter</filter−name>
-        <url−pattern>/∗</url−pattern>
-</filter−mapping>
---- XML
+
+                                <filter>
+                                        <filter−name>sessionAndTraceRegistrationFilter</filter−name>
+                                        <filter−class>kieker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter</filter−class>
+                                        <init−param>
+                                                <param−name>logFilterExecution</param−name>
+                                                <param−value>true</param−value>
+                                        </init−param>
+                                </filter>
+                                <filter−mapping>
+                                        <filter−name>sessionAndTraceRegistrationFilter</filter−name>
+                                        <url−pattern>/∗</url−pattern>
+                                </filter−mapping>
+
 
 2. aop.xml file created and placed in src/main/resources
 
---- XML
-<!DOCTYPE aspectj PUBLIC "−//AspectJ//DTD//EN" "http://www.aspectj.org/dtd/aspectj_1_5_0.dtd">
-<aspectj>
-        <weaver options="">
-                <include within="org.mybatis..*"/>
-        </weaver>
-        <aspects>
-                <aspect name="kieker.monitoring.probe.aspectj.operationExecution.OperationExecutionAspectFull"/>
-        </aspects>
-</aspectj>
---- XML
+
+                                <!DOCTYPE aspectj PUBLIC "−//AspectJ//DTD//EN" "http://www.aspectj.org/dtd/aspectj_1_5_0.dtd">
+                                <aspectj>
+                                        <weaver options="">
+                                                <include within="org.mybatis..*"/>
+                                        </weaver>
+                                        <aspects>
+                                                <aspect name="kieker.monitoring.probe.aspectj.operationExecution.OperationExecutionAspectFull"/>
+                                        </aspects>
+                                </aspectj>
+
 
 3. In the dependency section of the pom.xml added:
 
---- XML
-<dependency>
-        <groupId>net.kieker-monitoring</groupId>
-        <artifactId>kieker</artifactId>
-        <version>1.14</version>
-</dependency>
-<dependency>
-        <groupId>org.aspectj</groupId>
-        <artifactId>aspectjrt</artifactId>
-        <version>1.8.7</version>
-</dependency>
---- XML
+                                <dependency>
+                                        <groupId>net.kieker-monitoring</groupId>
+                                        <artifactId>kieker</artifactId>
+                                        <version>1.14</version>
+                                </dependency>
+                                <dependency>
+                                        <groupId>org.aspectj</groupId>
+                                        <artifactId>aspectjrt</artifactId>
+                                        <version>1.8.7</version>
+                                </dependency>
+
 
 4. In the build section of the pom.xml added:
 
---- XML
-<plugin>
-        <groupId>org.codehaus.mojo</groupId>
-        <artifactId>aspectj-maven-plugin</artifactId>
-        <version>1.8</version>
-        <configuration>
-                <source>1.7</source>
-                <target>1.7</target>
-                <complianceLevel>1.7</complianceLevel>
-                <aspectLibraries>
-                        <aspectLibrary>
-                                <groupId>net.kieker-monitoring</groupId>
-                                <artifactId>kieker</artifactId>
-                        </aspectLibrary>
-                </aspectLibraries>
-                <xmlConfigured>${basedir}/src/main/resources/aop.xml</xmlConfigured>
-                <sources>
-                        <source>
-                                <basedir>${basedir}/src/main/java</basedir>
-                                <includes>
-                                        <include>**/**.java</include>
-                                </includes>
-                        </source>
-                </sources>
-        </configuration>
-        <executions>
-                <execution>
-                        <goals>
-                                <goal>compile</goal>
-                        </goals>
-                </execution>
-        </executions>
-</plugin>
---- XML
+                                <plugin>
+                                        <groupId>org.codehaus.mojo</groupId>
+                                        <artifactId>aspectj-maven-plugin</artifactId>
+                                        <version>1.8</version>
+                                        <configuration>
+                                                <source>1.7</source>
+                                                <target>1.7</target>
+                                                <complianceLevel>1.7</complianceLevel>
+                                                <aspectLibraries>
+                                                        <aspectLibrary>
+                                                                <groupId>net.kieker-monitoring</groupId>
+                                                                <artifactId>kieker</artifactId>
+                                                        </aspectLibrary>
+                                                </aspectLibraries>
+                                                <xmlConfigured>${basedir}/src/main/resources/aop.xml</xmlConfigured>
+                                                <sources>
+                                                        <source>
+                                                                <basedir>${basedir}/src/main/java</basedir>
+                                                                <includes>
+                                                                        <include>**/**.java</include>
+                                                                </includes>
+                                                        </source>
+                                                </sources>
+                                        </configuration>
+                                        <executions>
+                                                <execution>
+                                                        <goals>
+                                                                <goal>compile</goal>
+                                                        </goals>
+                                                </execution>
+                                        </executions>
+                                </plugin>
+
 
 5. The kieker.monitoring.properties file  contain the following information and is placed in src/main/resources/META-INF/ within the project directory.
 ## The name of the Kieker instance.
