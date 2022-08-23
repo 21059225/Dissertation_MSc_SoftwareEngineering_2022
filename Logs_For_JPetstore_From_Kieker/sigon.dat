@@ -1,0 +1,28 @@
+$1;1661210633129829100;public Resolution org.mybatis.jpetstore.web.actions.AccountActionBean.newAccount();ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633129811400;1661210633129812700;myHost;1;1
+$1;1661210633129986200;public Account org.mybatis.jpetstore.service.AccountService.getAccount(String,String);ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633129978800;1661210633129979300;myHost;2;2
+$1;1661210633133930800; public voidorg.mybatis.jpetstore.domain.Account.setUsername(String);ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633133884100;1661210633133887300;myHost;3;3
+$1;1661210633133984500;public void org.mybatis.jpetstore.domain.Account.setEmail( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633133979100;1661210633133979900;myHost;3;3
+$1;1661210633133999200;public void org.mybatis.jpetstore.domain.Account.setFirstName( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633133996400;1661210633133996800;myHost;3;3
+$1;1661210633134014000; public void org.mybatis.jpetstore.domain.Account.setLastName( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134011200;1661210633134011500;myHost;3;3
+$1;1661210633134191600;public void org.mybatis.jpetstore.domain.Account.setAddress1( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134031000;1661210633134031700;myHost;3;3
+$1;1661210633134279700;public voidorg.mybatis.jpetstore.domain.Account setAddress2( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134267000;1661210633134267800;myHost;3;3
+$1;1661210633134421900; public void org.mybatis.jpetstore.domain.Account.setCity( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134308100;1661210633134308900;myHost;3;3
+$1;1661210633134843700;public voidorg.mybatis.jpetstore.domain.Account setState( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134821900;1661210633134825100;myHost;3;3
+$1;1661210633134895000; public voidorg.mybatis.jpetstore.domain.Account setZip( String );ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134887000;1661210633134888100;myHost;3;3
+$1;1661210633134955900;public voidorg.mybatis.jpetstore.domain.Account setCountry( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134924600;1661210633134925800;myHost;3;3
+$1;1661210633134991700; public void org.mybatis.jpetstore.domain.Account.setPhone( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633134989000;1661210633134989400;myHost;3;3
+$1;1661210633135028900;public void org.mybatis.jpetstore.domain.Account.setLanguagePreference( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135023200;1661210633135025200;myHost;3;3
+$1;1661210633135087100; public voidorg.mybatis.jpetstore.domain.Account setFavouriteCategoryId( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135076400;1661210633135079500;myHost;3;3
+$1;1661210633135154600;public voidorg.mybatis.jpetstore.domain.Account setListOption( boolean ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135149000;1661210633135149800;myHost;3;3
+$1;1661210633135190300;public voidorg.mybatis.jpetstore.domain.Account setBannerOption( boolean ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135184100;1661210633135184900;myHost;3;3
+$1;1661210633135456300;public void org.mybatis.jpetstore.domain.Account.setBannerName( String bannerName) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135261700;1661210633135262500;myHost;3;3
+$1;1661210633135919300;public void org.mybatis.jpetstore.domain.Account.setPassword( String ) ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135914100;1661210633135914900;myHost;3;3
+$1;1661210633135925700;public Stringorg.mybatis.jpetstore.domain.Account getFavouriteCategoryId() ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135923700;1661210633135924000;myHost;3;3
+$1;1661210633135931400;public List<Product> org.mybatis.jpetstore.service.CatalogService.getProductListByCategory(String);ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633135929000;1661210633135929200;myHost;2;2
+$1;1661210633154323900;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633154315600;1661210633154317100;myHost;3;3
+$1;1661210633154708500;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633154702100;1661210633154703700;myHost;3;3
+$1;1661210633156437000;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633156430000;1661210633156431300;myHost;3;3
+$1;1661210633156764800;public Stringorg.mybatis.jpetstore.domain.Account getFirstName() ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633156758400;1661210633156759700;myHost;3;3
+$1;1661210633157355600;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633157349900;1661210633157351100;myHost;3;3
+$1;1661210633157576800;public booleanorg.mybatis.jpetstore.domain.Account isBannerOption() ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633157572500;1661210633157573200;myHost;3;3
+$1;1661210633157746200; public Stringorg.mybatis.jpetstore.domain.Account getBannerName() ;ea0e9988-af29-486e-a2f0-e5c5c9aa7599;-1;1661210633157742000;1661210633157742700;myHost;3;3

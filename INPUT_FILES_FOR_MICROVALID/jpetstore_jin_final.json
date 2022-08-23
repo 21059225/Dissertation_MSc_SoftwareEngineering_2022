@@ -1,0 +1,127 @@
+{
+    "name":"jpetstore_jin",
+    "services": [
+      {
+        "nanoentities": [
+          "Category.categoryId",
+          "Category.name",
+          "Category.description",
+          "Product.productId",
+          "Product.categoryId",
+          "Product.name",
+          "Product.description",
+          "Item.itemId",
+          "Item.productId",
+          "Item.listPrice",
+          "Item.unitCost",
+          "Item.supplierId",
+          "Item.status",
+          "Item.attribute1",
+          "Item.attribute2",
+          "Item.attribute3",
+          "Item.attribute4",
+          "Item.attribute5",
+          "Item.product",
+          "Item.quantity"
+        ],
+        "id": "A",
+        "name": "Service Product"
+      },
+      {
+        "nanoentities": [
+          "Account.username",
+          "Account.password",
+          "Account.email",
+          "Account.firstName",
+          "Account.lastName",
+          "Account.status",
+          "Account.address1",
+          "Account.address2",
+          "Account.city",
+          "Account.state",
+          "Account.zip",
+          "Account.country",
+          "Account.phone",
+          "Account.favouriteCategoryId",
+          "Account.languagePreference",
+          "Account.listOption",
+          "Account.bannerOption",
+          "Account.bannerName"
+        ],
+        "id": "B",
+        "name": "Service Account"
+      },
+      {
+        "nanoentities": [
+          "Cart.itemMap",
+          "Cart.itemList",
+          "Cart.workingItemId",
+          "CartItem.item",
+          "CartItem.quantity",
+          "CartItem.inStock",
+          "CartItem.total",
+          "Sequence.name",
+          "Sequence.nextId",
+          "Order.orderId",
+          "Order.username",
+          "Order.orderDate",
+          "Order.shipAddress1",
+          "Order.shipAddress2",
+          "Order.shipCity",
+          "Order.shipState",
+          "Order.shipZip",
+          "Order.shipCountry",
+          "Order.billAddress1",
+          "Order.billAddress2",
+          "Order.billCity",
+          "Order.billState",
+          "Order.billZip",
+          "Order.billCountry",
+          "Order.courier",
+          "Order.totalPrice",
+          "Order.billToFirstName",
+          "Order.billToLastName",
+          "Order.shipToFirstName",
+          "Order.shipToLastName",
+          "Order.creditCard",
+          "Order.expiryDate",
+          "Order.cardType",
+          "Order.locale",
+          "Order.status",
+          "Order.lineItems",
+          "LineItem.orderId",
+          "LineItem.lineNumber",
+          "LineItem.quantity",
+          "LineItem.itemId",
+          "LineItem.unitPrice",
+          "LineItem.item",
+          "LineItem.total"
+        ],
+        "id": "C",
+        "name": "Service Order"
+      }
+    ],
+    "useCaseResponsibility": {
+      "Service Order": [
+        "Add Item to Cart",
+        "Remove Item from Cart",
+        "Update Quantities in Cart",
+        "View Cart",
+        "Check out of the cart",
+        "Confirm order"
+      ],
+      "Service Account": [
+        "Checks authentication",
+        "Signoff",
+        "Signon",
+        "Edit Account",
+        "New Account Creation"
+      ],
+      "Service Product": [
+        "View Category",
+        "View Product",
+        "View Item",
+        "Search Products"
+      ]
+    }
+  }

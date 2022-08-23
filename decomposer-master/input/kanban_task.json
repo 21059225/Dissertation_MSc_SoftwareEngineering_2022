@@ -1,0 +1,35 @@
+{
+
+ "serviceName": "Task",
+
+ "operations": [
+
+ {"name":"saveTask"},
+
+ {"name":"deleteTask"},
+
+ {"name":"updateTask"},
+
+ {"name":"startTask"},
+
+ {"name":"scheduleTask"},
+
+ {"name":"completeTask"},
+
+ {"name":"backlogTask"},
+
+ {"name":"getHistory"},
+
+ {"name":"listAllTasks"}
+
+ ],
+
+ "resources": [
+
+ {"name":"meta"},
+
+ {"name":"data"}
+
+ ]
+
+}

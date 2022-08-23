@@ -1,0 +1,5 @@
+[new, account];DepositAccount;1.0;
+[edit, account];DepositAccount;1.0;
+[signon];ReadAction;1.0;
+[signoff];ReadAction;1.0;
+[authenticated];ReadAction;1.0;

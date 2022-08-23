@@ -1,0 +1,17 @@
+{
+
+ "serviceName": "Product",
+ "operations": [
+ {"name":"viewCategory"},
+ {"name":"viewProduct"},
+ {"name":"viewItem"},
+ {"name":"searchProducts"}
+ ],
+ "resources": [
+ {"name":"meta"},
+ {"name":"data"}
+ ]
+}
+
+
+

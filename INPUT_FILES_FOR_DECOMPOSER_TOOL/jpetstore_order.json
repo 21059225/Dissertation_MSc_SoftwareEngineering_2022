@@ -1,0 +1,24 @@
+{
+    "serviceName": "Order",
+    "operations": [
+    {"name":"addItemToCart"},
+    {"name":"removeItemFromCart"},
+    {"name":"updateCartQuantities"},
+    {"name":"viewCart"},
+    {"name":"checkOut"},
+    {"name":"listOrders"},
+    {"name":"newOrder"},
+    {"name":"viewOrder"}
+    ],
+    "resources": [
+    {"name":"meta"},
+    {"name":"data"}
+    ]
+}
+   
+   
+   
+  
+   
+   
+      

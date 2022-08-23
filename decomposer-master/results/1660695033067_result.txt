@@ -1,0 +1,6 @@
+kanban;Action;1
+kanban;LocalBusiness;2
+kanban;Action;1
+kanban;Intangible;5
+kanban;OrganizeAction;1
+kanban;Action;1

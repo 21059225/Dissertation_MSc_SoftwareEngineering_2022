@@ -1,0 +1,8 @@
+[item, cart];ItemAvailability;0.95731413;
+[remove, item, cart];ItemListOrderType;1.7708328;
+[cart, quantities];TypeAndQuantityNode;1.0310854;
+[view, cart];ViewAction;0.9838057;
+[check];CheckAction;0.1;
+[orders];Order;0.0;
+[new, order];OrderAction;1.0;
+[view, order];OrderAction;0.810037;

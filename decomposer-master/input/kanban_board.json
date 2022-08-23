@@ -1,0 +1,23 @@
+{
+
+    "serviceName": "Board",
+   
+    "operations": [
+   
+    {"name":"listAllBoards"},
+   
+    {"name":"saveBoard"},
+   
+    {"name":"getBoard"}
+   
+    ],
+   
+    "resources": [
+   
+    {"name":"meta"},
+   
+    {"name":"data"}
+   
+    ]
+   
+   }

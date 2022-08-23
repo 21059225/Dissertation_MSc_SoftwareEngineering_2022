@@ -1,0 +1,77 @@
+$1;1661211229548678400;public ForwardResolution org.mybatis.jpetstore.web.actions.CatalogActionBean.viewProduct();3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229548660300;1661211229548660700;myHost;1;1
+$1;1661211229548706000;public List<Item> org.mybatis.jpetstore.service.CatalogService.getItemListByProduct(String);3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229548699900;1661211229548700100;myHost;2;2
+$1;1661211229554059100;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554037400;1661211229554038300;myHost;3;3
+$1;1661211229554089000;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554086500;1661211229554086600;myHost;3;3
+$1;1661211229554106400;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554104500;1661211229554104700;myHost;3;3
+$1;1661211229554114000;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554112600;1661211229554112800;myHost;3;3
+$1;1661211229554126100;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554124700;1661211229554124800;myHost;3;3
+$1;1661211229554132200;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554131000;1661211229554131200;myHost;3;3
+$1;1661211229554145500;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554144300;1661211229554144400;myHost;3;3
+$1;1661211229554151500;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554150400;1661211229554150600;myHost;3;3
+$1;1661211229554221500;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554219200;1661211229554219400;myHost;3;3
+$1;1661211229554260500;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set listPrice;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554258700;1661211229554258800;myHost;3;3
+$1;1661211229554273400;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set unitCost;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554271900;1661211229554272000;myHost;3;3
+$1;1661211229554308100;public int org.mybatis.jpetstore.domain.Itemget/set supplierId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554304900;1661211229554306600;myHost;3;3
+$1;1661211229554321200;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554319800;1661211229554319900;myHost;3;3
+$1;1661211229554352000;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554350600;1661211229554350800;myHost;3;3
+$1;1661211229554364600;publicString org.mybatis.jpetstore.domain.Productget/set productId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554363300;1661211229554363400;myHost;3;3
+$1;1661211229554374100;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554372900;1661211229554373000;myHost;3;3
+$1;1661211229554383800;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554382600;1661211229554382700;myHost;3;3
+$1;1661211229554392100;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554391000;1661211229554391100;myHost;3;3
+$1;1661211229554402000;publicString org.mybatis.jpetstore.domain.Productget/set description;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554400900;1661211229554401000;myHost;3;3
+$1;1661211229554409700;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554408600;1661211229554408700;myHost;3;3
+$1;1661211229554418400;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554417200;1661211229554417300;myHost;3;3
+$1;1661211229554438100;publicStringorg.mybatis.jpetstore.domain.Itemget/set status;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554436700;1661211229554436800;myHost;3;3
+$1;1661211229554449600;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute1;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554448300;1661211229554448400;myHost;3;3
+$1;1661211229554506600;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554504500;1661211229554504600;myHost;3;3
+$1;1661211229554516300;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set listPrice;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554514700;1661211229554514800;myHost;3;3
+$1;1661211229554522900;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set unitCost;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554521600;1661211229554521800;myHost;3;3
+$1;1661211229554530300;public int org.mybatis.jpetstore.domain.Itemget/set supplierId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554529000;1661211229554529100;myHost;3;3
+$1;1661211229554536700;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554535500;1661211229554535600;myHost;3;3
+$1;1661211229554548500;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554547200;1661211229554547400;myHost;3;3
+$1;1661211229554554400;publicString org.mybatis.jpetstore.domain.Productget/set productId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554553300;1661211229554553400;myHost;3;3
+$1;1661211229554561300;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554560200;1661211229554560300;myHost;3;3
+$1;1661211229554566600;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554565600;1661211229554565700;myHost;3;3
+$1;1661211229554573600;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554572600;1661211229554572700;myHost;3;3
+$1;1661211229554578700;publicString org.mybatis.jpetstore.domain.Productget/set description;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554577800;1661211229554577900;myHost;3;3
+$1;1661211229554786500;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554783400;1661211229554783500;myHost;3;3
+$1;1661211229554797200;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554795600;1661211229554795700;myHost;3;3
+$1;1661211229554812800;publicStringorg.mybatis.jpetstore.domain.Itemget/set status;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554811100;1661211229554811300;myHost;3;3
+$1;1661211229554820700;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute1;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229554819400;1661211229554819600;myHost;3;3
+$1;1661211229600102200;public Product org.mybatis.jpetstore.service.CatalogService.getProduct(String);3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229600091300;1661211229600091800;myHost;2;2
+$1;1661211229601038500;publicString org.mybatis.jpetstore.domain.Productget/set productId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229601034400;1661211229601034700;myHost;3;3
+$1;1661211229601074900;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229601072800;1661211229601073000;myHost;3;3
+$1;1661211229601085100;publicString org.mybatis.jpetstore.domain.Productget/set description;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229601083500;1661211229601083700;myHost;3;3
+$1;1661211229601094000;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229601092600;1661211229601092700;myHost;3;3
+$1;1661211229641278800;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229641273700;1661211229641274100;myHost;3;3
+$1;1661211229641351400;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229641349100;1661211229641349200;myHost;3;3
+$1;1661211229642948400;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229642944800;1661211229642945100;myHost;3;3
+$1;1661211229642995400;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229642993000;1661211229642993200;myHost;3;3
+$1;1661211229643213100;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229643210500;1661211229643210600;myHost;3;3
+$1;1661211229656168200;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656163200;1661211229656163600;myHost;3;3
+$1;1661211229656247200;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656244200;1661211229656244300;myHost;3;3
+$1;1661211229656597100;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656593600;1661211229656593800;myHost;3;3
+$1;1661211229656610500;publicString org.mybatis.jpetstore.domain.Productget/set productId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656608400;1661211229656608600;myHost;3;3
+$1;1661211229656822300;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute1;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656818900;1661211229656819000;myHost;3;3
+$1;1661211229656936500;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute2;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229656933900;1661211229656934000;myHost;3;3
+$1;1661211229657059800;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute3;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229657057200;1661211229657057400;myHost;3;3
+$1;1661211229657386900;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute4;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229657356100;1661211229657356500;myHost;3;3
+$1;1661211229657537100;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute5;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229657533100;1661211229657533200;myHost;3;3
+$1;1661211229657581400;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229657579100;1661211229657579200;myHost;3;3
+$1;1661211229678231300;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set listPrice;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229678219200;1661211229678219700;myHost;3;3
+$1;1661211229721647600;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229721642500;1661211229721643000;myHost;3;3
+$1;1661211229721966600;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229721962700;1661211229721963000;myHost;3;3
+$1;1661211229722012400;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722010100;1661211229722010200;myHost;3;3
+$1;1661211229722178700;publicProductorg.mybatis.jpetstore.domain.Itemget/set  product;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722175300;1661211229722175500;myHost;3;3
+$1;1661211229722190500;publicString org.mybatis.jpetstore.domain.Productget/set productId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722188700;1661211229722188800;myHost;3;3
+$1;1661211229722420100;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute1;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722416800;1661211229722417000;myHost;3;3
+$1;1661211229722453900;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute2;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722451700;1661211229722451900;myHost;3;3
+$1;1661211229722481100;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute3;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722479200;1661211229722479300;myHost;3;3
+$1;1661211229722522800;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute4;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722520800;1661211229722521000;myHost;3;3
+$1;1661211229722546900;publicStringorg.mybatis.jpetstore.domain.Itemget/set attribute5;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722545100;1661211229722545300;myHost;3;3
+$1;1661211229722578400;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722576700;1661211229722576900;myHost;3;3
+$1;1661211229722603500;publicBigDecimalorg.mybatis.jpetstore.domain.Itemget/set listPrice;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229722601500;1661211229722601600;myHost;3;3
+$1;1661211229723167800;publicStringorg.mybatis.jpetstore.domain.Itemget/set itemId;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229723164800;1661211229723165100;myHost;3;3
+$1;1661211229723395700;public Stringorg.mybatis.jpetstore.domain.Account.getUsername();3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229723393100;1661211229723393300;myHost;3;3
+$1;1661211229723518700;public booleanorg.mybatis.jpetstore.domain.Account isBannerOption() ;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229723512500;1661211229723513200;myHost;3;3
+$1;1661211229723575500; public Stringorg.mybatis.jpetstore.domain.Account getBannerName() ;3cd58c9f-ec01-41bd-9a10-cc348798a4d7;-1;1661211229723573200;1661211229723573300;myHost;3;3

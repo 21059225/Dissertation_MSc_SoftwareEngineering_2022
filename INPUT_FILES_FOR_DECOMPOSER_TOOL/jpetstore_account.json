@@ -1,0 +1,27 @@
+{
+    "serviceName": "Account",
+    "operations": [
+    {"name":"newAccount"},
+    {"name":"editAccount"},
+    {"name":"signon"},
+    {"name":"signoff"},
+    {"name":"isAuthenticated"}
+    ],
+    "resources": [
+    {"name":"meta"},
+    {"name":"data"}
+    ]
+}
+   
+   
+
+
+
+
+
+   
+   
+  
+   
+   
+      

@@ -1,0 +1,34 @@
+$1;1661212436431768100;public ForwardResolution org.mybatis.jpetstore.web.actions.CatalogActionBean.searchProducts();9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436431739200;1661212436431740700;myHost;1;1
+$1;1661212436431816600;public List<Product> org.mybatis.jpetstore.service.CatalogService.searchProductList(String);9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436431811200;1661212436431811300;myHost;2;2
+$1;1661212436441944000;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436441939400;1661212436441940000;myHost;3;3
+$1;1661212436441976100;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436441974400;1661212436441974500;myHost;3;3
+$1;1661212436441982900;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436441982100;1661212436441982200;myHost;3;3
+$1;1661212436441990600;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436441988700;1661212436441988800;myHost;3;3
+$1;1661212436443400700;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443397000;1661212436443397500;myHost;3;3
+$1;1661212436443415000;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443413800;1661212436443413900;myHost;3;3
+$1;1661212436443421400;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443420400;1661212436443420500;myHost;3;3
+$1;1661212436443426400;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443425600;1661212436443425700;myHost;3;3
+$1;1661212436443456500;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443455200;1661212436443455400;myHost;3;3
+$1;1661212436443461000;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443460200;1661212436443460300;myHost;3;3
+$1;1661212436443464600;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443463900;1661212436443464000;myHost;3;3
+$1;1661212436443467900;publicStringorg.mybatis.jpetstore.domain.Productget/set  categoryId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436443467200;1661212436443467300;myHost;3;3
+$1;1661212436611515100;public Stringorg.mybatis.jpetstore.domain.AccountgetUsername();9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436611510700;1661212436611511500;myHost;3;3
+$1;1661212436611579800;public Stringorg.mybatis.jpetstore.domain.AccountgetUsername();9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436611578100;1661212436611578200;myHost;3;3
+$1;1661212436613234100;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613230200;1661212436613230400;myHost;3;3
+$1;1661212436613410500;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613395300;1661212436613395500;myHost;3;3
+$1;1661212436613517800;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613515900;1661212436613516100;myHost;3;3
+$1;1661212436613569600;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613568400;1661212436613568500;myHost;3;3
+$1;1661212436613627000;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613625300;1661212436613625400;myHost;3;3
+$1;1661212436613648900;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613647500;1661212436613647700;myHost;3;3
+$1;1661212436613664900;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613662100;1661212436613662300;myHost;3;3
+$1;1661212436613719700;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613718100;1661212436613718300;myHost;3;3
+$1;1661212436613736400;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613735200;1661212436613735400;myHost;3;3
+$1;1661212436613784700;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613781900;1661212436613782000;myHost;3;3
+$1;1661212436613802700;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613801400;1661212436613801600;myHost;3;3
+$1;1661212436613815900;publicString org.mybatis.jpetstore.domain.Productget/set description;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613814700;1661212436613814800;myHost;3;3
+$1;1661212436613867100;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613865700;1661212436613865900;myHost;3;3
+$1;1661212436613882900;publicString org.mybatis.jpetstore.domain.Productget/set productId;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613881900;1661212436613882000;myHost;3;3
+$1;1661212436613946500;publicStringorg.mybatis.jpetstore.domain.Productget/set  name;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436613945000;1661212436613945200;myHost;3;3
+$1;1661212436614021600;public Stringorg.mybatis.jpetstore.domain.AccountgetUsername();9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436614019500;1661212436614019700;myHost;3;3
+$1;1661212436614055700;public booleanorg.mybatis.jpetstore.domain.Account isBannerOption() ;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436614054200;1661212436614054300;myHost;3;3
+$1;1661212436614072500; public Stringorg.mybatis.jpetstore.domain.Account getBannerName() ;9b94847d-8f51-4f2e-931b-8c141dc5e4ae;-1;1661212436614071200;1661212436614071400;myHost;3;3

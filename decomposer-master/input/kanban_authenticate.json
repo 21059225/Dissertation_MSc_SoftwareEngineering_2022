@@ -1,0 +1,18 @@
+{
+
+    "serviceName": "Authenticate",
+   
+    "operations": [
+   
+    {"name":"doAuth"}
+    ],
+   
+    "resources": [
+   
+    {"name":"meta"},
+   
+    {"name":"data"}
+   
+    ]
+   
+   }
