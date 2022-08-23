@@ -2,6 +2,8 @@
 The 'JPetstore' in this repository is configured for generating execution traces using 'Kiker Tool'. The changes made to the original 'JPetstore' project is as follows:
 
 1. Filter configuration added in  web.xml file located in jpetstore-6/src/main/webapp/WEB-INF
+
+--- XML
 <filter>
         <filter−name>sessionAndTraceRegistrationFilter</filter−name>
         <filter−class>kieker.monitoring.probe.servlet.SessionAndTraceRegistrationFilter</filter−class>
@@ -14,8 +16,11 @@ The 'JPetstore' in this repository is configured for generating execution traces
         <filter−name>sessionAndTraceRegistrationFilter</filter−name>
         <url−pattern>/∗</url−pattern>
 </filter−mapping>
+--- XML
 
 2. aop.xml file created and placed in src/main/resources
+
+--- XML
 <!DOCTYPE aspectj PUBLIC "−//AspectJ//DTD//EN" "http://www.aspectj.org/dtd/aspectj_1_5_0.dtd">
 <aspectj>
         <weaver options="">
@@ -25,8 +30,11 @@ The 'JPetstore' in this repository is configured for generating execution traces
                 <aspect name="kieker.monitoring.probe.aspectj.operationExecution.OperationExecutionAspectFull"/>
         </aspects>
 </aspectj>
+--- XML
 
 3. In the dependency section of the pom.xml added:
+
+--- XML
 <dependency>
         <groupId>net.kieker-monitoring</groupId>
         <artifactId>kieker</artifactId>
@@ -37,8 +45,11 @@ The 'JPetstore' in this repository is configured for generating execution traces
         <artifactId>aspectjrt</artifactId>
         <version>1.8.7</version>
 </dependency>
+--- XML
 
 4. In the build section of the pom.xml added:
+
+--- XML
 <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>aspectj-maven-plugin</artifactId>
@@ -71,6 +82,7 @@ The 'JPetstore' in this repository is configured for generating execution traces
                 </execution>
         </executions>
 </plugin>
+--- XML
 
 5. The kieker.monitoring.properties file  contain the following information and is placed in src/main/resources/META-INF/ within the project directory.
 ## The name of the Kieker instance.
