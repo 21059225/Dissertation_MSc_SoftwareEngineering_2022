@@ -83,87 +83,88 @@ The 'JPetstore' in this repository is configured for generating execution traces
 
 
 5. The kieker.monitoring.properties file  contain the following information and is placed in src/main/resources/META-INF/ within the project directory.
-## The name of the Kieker instance.
-kieker.monitoring.name=KIEKER
 
-## Whether a debug mode is activated.
-kieker.monitoring.debug=false
+                                ## The name of the Kieker instance.
+                                kieker.monitoring.name=KIEKER
 
-## Enable monitoring after startup
-kieker.monitoring.enabled=true
+                                ## Whether a debug mode is activated.
+                                kieker.monitoring.debug=false
 
-## The name of the VM running Kieker or empty (will automatically be
-resolved)
-kieker.monitoring.hostname=
+                                ## Enable monitoring after startup
+                                kieker.monitoring.enabled=true
 
-## Automatically add a metadata record
-kieker.monitoring.metadata=true
+                                ## The name of the VM running Kieker or empty (will automatically be
+                                resolved)
+                                kieker.monitoring.hostname=
 
-## Enables the automatic assignment
-kieker.monitoring.setLoggingTimestamp=true
+                                ## Automatically add a metadata record
+                                kieker.monitoring.metadata=true
 
-## Register shutdown hook
-kieker.monitoring.useShutdownHook=true
+                                ## Enables the automatic assignment
+                                kieker.monitoring.setLoggingTimestamp=true
 
-## Do not use JMX
-kieker.monitoring.jmx=false
+                                ## Register shutdown hook
+                                kieker.monitoring.useShutdownHook=true
 
-## The size of the thread pool used to execute registered periodic sensor jobs.
-kieker.monitoring.periodicSensorsExecutorPoolSize=0
+                                ## Do not use JMX
+                                kieker.monitoring.jmx=false
 
-## Disable adaptive monitoring.
-kieker.monitoring.adaptiveMonitoring.enabled=false
+                                ## The size of the thread pool used to execute registered periodic sensor jobs.
+                                kieker.monitoring.periodicSensorsExecutorPoolSize=0
 
-## Timer to use
-kieker.monitoring.timer=kieker.monitoring.timer.SystemNanoTimer
+                                ## Disable adaptive monitoring.
+                                kieker.monitoring.adaptiveMonitoring.enabled=false
 
-## Report timestamps in
-## Accepted values:
-## 0 - nanoseconds
-## 1 - microseconds
-## 2 - milliseconds
-## 3 - seconds
-kieker.monitoring.timer.SystemMilliTimer.unit=0
+                                ## Timer to use
+                                kieker.monitoring.timer=kieker.monitoring.timer.SystemNanoTimer
 
-## Writer configuration
-kieker.monitoring.writer=kieker.monitoring.writer.filesystem.FileWriter
+                                ## Report timestamps in
+                                ## Accepted values:
+                                ## 0 - nanoseconds
+                                ## 1 - microseconds
+                                ## 2 - milliseconds
+                                ## 3 - seconds
+                                kieker.monitoring.timer.SystemMilliTimer.unit=0
 
-## output path
-kieker.monitoring.writer.filesystem.FileWriter.customStoragePath=$LOGGING_DIR/
-kieker.monitoring.writer.filesystem.FileWriter.charsetName=UTF-8
+                                ## Writer configuration
+                                kieker.monitoring.writer=kieker.monitoring.writer.filesystem.FileWriter
 
-## Number of entries per file
-kieker.monitoring.writer.filesystem.FileWriter.maxEntriesInFile=25000
+                                ## output path
+                                kieker.monitoring.writer.filesystem.FileWriter.customStoragePath=$LOGGING_DIR/
+                                kieker.monitoring.writer.filesystem.FileWriter.charsetName=UTF-8
 
-## Limit of the log file size; -1 no limit
-kieker.monitoring.writer.filesystem.FileWriter.maxLogSize=-1
+                                ## Number of entries per file
+                                kieker.monitoring.writer.filesystem.FileWriter.maxEntriesInFile=25000
 
-## Limit number of log files; -1 no limit
-kieker.monitoring.writer.filesystem.FileWriter.maxLogFiles=-1
+                                ## Limit of the log file size; -1 no limit
+                                kieker.monitoring.writer.filesystem.FileWriter.maxLogSize=-1
 
-## Map files are written as text files
-kieker.monitoring.writer.filesystem.FileWriter.mapFileHandler=kieker.monitoring.writer.filesystem.TextMapFileHandler
+                                ## Limit number of log files; -1 no limit
+                                kieker.monitoring.writer.filesystem.FileWriter.maxLogFiles=-1
 
-## Flush map file after each record
-kieker.monitoring.writer.filesystem.TextMapFileHandler.flush=true
+                                ## Map files are written as text files
+                                kieker.monitoring.writer.filesystem.FileWriter.mapFileHandler=kieker.monitoring.writer.filesystem.TextMapFileHandler
 
-## Do not compress the map file
-kieker.monitoring.writer.filesystem.TextMapFileHandler.compression=kieker.monitoring.writer.compression.NoneCompressionFilter
+                                ## Flush map file after each record
+                                kieker.monitoring.writer.filesystem.TextMapFileHandler.flush=true
 
-## Log file pool handler
-kieker.monitoring.writer.filesystem.FileWriter.logFilePoolHandler=kieker.monitoring.writer.filesystem.RotatingLogFilePoolHandler
+                                ## Do not compress the map file
+                                kieker.monitoring.writer.filesystem.TextMapFileHandler.compression=kieker.monitoring.writer.compression.NoneCompressionFilter
 
-## Text log for record data
-kieker.monitoring.writer.filesystem.FileWriter.logStreamHandler=kieker.monitoring.writer.filesystem.TextLogStreamHandler
+                                ## Log file pool handler
+                                kieker.monitoring.writer.filesystem.FileWriter.logFilePoolHandler=kieker.monitoring.writer.filesystem.RotatingLogFilePoolHandler
 
-## Do not compress the log file
-kieker.monitoring.writer.filesystem.TextLogStreamHandler.compression=kieker.monitoring.writer.compression.NoneCompressionFilter
+                                ## Text log for record data
+                                kieker.monitoring.writer.filesystem.FileWriter.logStreamHandler=kieker.monitoring.writer.filesystem.TextLogStreamHandler
 
-## Flush log data after every record
-kieker.monitoring.writer.filesystem.FileWriter.flush=true
+                                ## Do not compress the log file
+                                kieker.monitoring.writer.filesystem.TextLogStreamHandler.compression=kieker.monitoring.writer.compression.NoneCompressionFilter
 
-## buffer size. The log buffer size must be big enough to hold the biggest record
-kieker.monitoring.writer.filesystem.FileWriter.bufferSize=81920
+                                ## Flush log data after every record
+                                kieker.monitoring.writer.filesystem.FileWriter.flush=true
+
+                                ## buffer size. The log buffer size must be big enough to hold the biggest record
+                                kieker.monitoring.writer.filesystem.FileWriter.bufferSize=81920
 
 6. The configurations for each operation is also changed for generating the logs.
 
